@@ -32,13 +32,13 @@ print(bcolors.ENDC + '')
 filename = "response.wav"
 
 # SET THIS TO YOUR OPENAI API KEY!
-openai.api_key = "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"
+openai.api_key = ""
 
 chat_log = """The following is a conversation with a friend named Scarlett.. Scarlett is helpful, creative, intelligent, smart and very friendly. Scarlett loves physics, mechanical engineering and thermodynamics.\nHuman: Hello, who are you?\nAI: I am an AI called Scarlett.\n"""
 
 personalities_input = int(input("What personality would you like to talk with? "))
 
-authenticator = IAMAuthenticator('EOsJzzrt_4F8q6TCt4vNS1UR0H-m1FmvXufvamawDLqw')
+authenticator = IAMAuthenticator('')
 text_to_speech = TextToSpeechV1(authenticator=authenticator)
 text_to_speech.set_service_url('https://api.au-syd.text-to-speech.watson.cloud.ibm.com')
 
