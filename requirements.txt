@@ -1,1 +1,4 @@
 openai
+ibm_watson
+twilio
+flask
