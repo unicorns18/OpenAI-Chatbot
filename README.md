@@ -19,6 +19,17 @@ Scarlett can be used either via the Command Line or through a phone number! (Twi
 More communication methods will be implemented soon.
 ```
 
+## To-do
+
+```
+ASR (Automatic Speech Recognition)
+Calls (via Client->Server)
+Remembers previous conversations
+Text To Speech (Flowtron/Tacotron2)
+Speech To Text
+Intent Slot Classification
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
